@@ -75,6 +75,7 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
+    dotenv (3.1.0)
     erubi (1.12.0)
     faker (2.23.0)
       i18n (>= 1.8.11, < 2)
@@ -181,6 +182,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
   byebug
+  dotenv
   faker (~> 2.19)
   jwt (~> 2.2)
   listen (~> 3.3)
