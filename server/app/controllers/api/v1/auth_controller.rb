@@ -13,6 +13,11 @@ class Api::V1::AuthController < ApplicationController
     end
   end
 
+  def destroy
+    !logged_in
+    head :no_content
+  end
+
   private
 
   def user_login_params
